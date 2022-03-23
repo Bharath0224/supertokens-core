@@ -1,0 +1,13 @@
+
+name: Call Locus 
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: vcu-swim-lab/bug-aimbot-action@v1.0.1
